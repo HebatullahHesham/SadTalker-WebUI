@@ -197,7 +197,7 @@ def start():
     from app_sadtalker import sadtalker_demo
     demo = sadtalker_demo()
     demo.queue()
-    demo.launch()
+    demo.launch(Share=True)
 
 if __name__ == "__main__":
     prepare_environment()
