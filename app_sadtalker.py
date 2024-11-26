@@ -157,6 +157,6 @@ if __name__ == "__main__":
 
     demo = sadtalker_demo()
     demo.queue()
-    demo.launch()
+    demo.launch(Share=True)
 
 
