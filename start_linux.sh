@@ -1,5 +1,7 @@
 #!/bin/bash
 
+chmod +x start_linux.sh
+
 cd "$(dirname "${BASH_SOURCE[0]}")"
 
 if [[ "$(pwd)" =~ " " ]]; then echo This script relies on Miniconda which can not be silently installed under a path with spaces. && exit; fi
